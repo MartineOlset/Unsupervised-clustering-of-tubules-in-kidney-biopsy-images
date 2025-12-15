@@ -1,0 +1,26 @@
+# Ignore dataset and generated files (provided separately)
+data/
+
+# Ignore extracted images and annotations
+tubule_extraction/Annotations json/
+tubule_extraction/images/
+tubule_extraction/target_image/
+
+# Model checkpoints and large artifacts
+feature_extraction/*.pth
+feature_extraction/best_ckpt.pth
+
+# Large image and annotation file types
+*.svs
+*.geojson
+
+# Jupyter, Python, and editor caches
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
+
